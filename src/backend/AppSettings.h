@@ -38,7 +38,7 @@ struct General {
     const QString DEFAULT_LOCALE;
     const QString DEFAULT_THEME;
 
-    bool portable = false;
+    bool portable = true;
     bool fullscreen = true;
     bool mouse_support = true;
     bool verify_files = true;
